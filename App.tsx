@@ -6,6 +6,7 @@ import { RecipeGallery } from './components/RecipeGallery';
 import { Author } from './components/Author';
 import { Bonuses } from './components/Bonuses';
 import { Pricing } from './components/Pricing';
+import { Testimonials } from './components/Testimonials';
 import { PostPricingGallery } from './components/PostPricingGallery';
 import { Guarantee } from './components/Guarantee';
 import { FAQ } from './components/FAQ';
@@ -24,6 +25,7 @@ function App() {
       <Author />
       <Bonuses />
       <Pricing />
+      <Testimonials />
       <PostPricingGallery />
       <Guarantee />
       <FAQ />
