@@ -14,7 +14,7 @@ import { TopBanner } from './components/TopBanner';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col font-sans">
+    <div className="min-h-screen flex flex-col font-sans overflow-x-hidden">
       <TopBanner />
       <SalesPopup />
       <Hero />
@@ -30,8 +30,9 @@ function App() {
       
       <footer className="bg-slate-900 text-slate-500 py-8 text-center text-sm">
         <div className="container mx-auto px-4">
-          <p>© {new Date().getFullYear()} Panettone Sem Glúten - Suelen Costa. Todos os direitos reservados.</p>
-          <p className="mt-2 text-xs">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.</p>
+          <p className="mb-2">© {new Date().getFullYear()} Panettone Sem Glúten - Suelen Costa.</p>
+          <p>Todos os direitos reservados.</p>
+          <p className="mt-2 text-xs opacity-70">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.</p>
         </div>
       </footer>
     </div>
