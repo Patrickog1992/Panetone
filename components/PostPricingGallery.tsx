@@ -51,7 +51,7 @@ export const PostPricingGallery = () => {
 
                 <div className="text-center mb-12">
                      <h3 className="text-xl md:text-2xl font-bold text-brand-darkRed">
-                         Essas e mais algumas delícias que você vai ter acesso pagando só R$37,90
+                         Essas e mais algumas delícias que você vai ter acesso pagando só R$37,00
                      </h3>
                 </div>
 

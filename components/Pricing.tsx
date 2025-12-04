@@ -5,7 +5,7 @@ import { Check } from 'lucide-react';
 
 export const Pricing = () => {
   const totalValue = "539,90";
-  const promoPrice = "37,90";
+  const promoPrice = "37,00";
 
   return (
     <section id="offer" className="py-20 bg-gradient-to-b from-brand-cream to-white">
