@@ -24,7 +24,13 @@ export const Bonuses = () => {
               <div className="flex flex-col sm:flex-row h-full">
                 <div className="sm:w-1/3 p-4 bg-slate-900/50 flex items-center justify-center relative">
                    {/* Changed object-cover to object-contain so full book covers are visible */}
-                   <img src={bonus.image} alt={bonus.title} className="w-full h-auto max-h-48 sm:max-h-full object-contain" />
+                   <img 
+                      src={bonus.image} 
+                      alt={bonus.title} 
+                      className="w-full h-auto max-h-48 sm:max-h-full object-contain" 
+                      loading="lazy"
+                      decoding="async"
+                   />
                    <div className="absolute top-0 left-0 bg-brand-red text-white text-xs font-bold px-3 py-1 rounded-br-lg z-10">
                       GRÁTIS
                    </div>

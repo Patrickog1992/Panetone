@@ -34,7 +34,13 @@ export const PostPricingGallery = () => {
                         <div key={idx} className="bg-brand-cream rounded-2xl overflow-hidden shadow-lg border border-brand-lightGold">
                             <div className="overflow-hidden">
                                 {/* Removed h-64 to show full image */}
-                                <img src={item.image} alt={item.name} className="w-full h-auto" />
+                                <img 
+                                    src={item.image} 
+                                    alt={item.name} 
+                                    className="w-full h-auto"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </div>
                             <div className="p-6 text-center">
                                 <h3 className="font-bold text-lg md:text-xl text-slate-800">{item.name}</h3>
@@ -55,7 +61,13 @@ export const PostPricingGallery = () => {
                         <div key={idx} className="relative rounded-2xl overflow-hidden shadow-lg group">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent z-10 pointer-events-none"></div>
                             {/* Removed fixed height so image is full */}
-                            <img src={item.image} alt={item.name} className="w-full h-auto" />
+                            <img 
+                                src={item.image} 
+                                alt={item.name} 
+                                className="w-full h-auto" 
+                                loading="lazy"
+                                decoding="async"
+                            />
                             <div className="absolute bottom-0 left-0 w-full p-6 z-20">
                                 <h3 className="font-bold text-white text-lg">{item.name}</h3>
                             </div>

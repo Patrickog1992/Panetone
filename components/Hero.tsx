@@ -22,11 +22,12 @@ export const Hero = () => {
           {/* 3. Image (Logo após o título conforme pedido) */}
           <div className="relative w-full max-w-lg mx-auto mb-8">
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] h-[110%] bg-brand-gold/20 rounded-full blur-3xl -z-10"></div>
-             {/* Removed aspect-square and object-cover to show full image */}
+             {/* Adicionado fetchPriority="high" para priorizar esta imagem no carregamento */}
              <img 
                src="https://i.imgur.com/zqJ4Ke2.jpeg" 
                alt="Panettone Delicioso Sem Glúten" 
                className="rounded-3xl shadow-2xl border-4 border-white rotate-1 w-full h-auto"
+               fetchPriority="high"
              />
           </div>
 

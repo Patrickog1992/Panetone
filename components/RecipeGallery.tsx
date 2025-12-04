@@ -22,6 +22,8 @@ export const RecipeGallery = () => {
                   src={recipe.image} 
                   alt={recipe.name} 
                   className="w-full h-auto object-contain md:object-cover bg-brand-cream/10"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="p-6 md:w-7/12 flex flex-col justify-center">

@@ -31,6 +31,8 @@ export const FeatureRecipe = () => {
                src="https://i.imgur.com/MNBZPwh.jpeg" 
                alt="Panettone de Chocolate" 
                className="rounded-3xl shadow-2xl border-4 border-brand-gold w-full h-auto"
+               loading="lazy"
+               decoding="async"
             />
         </div>
 

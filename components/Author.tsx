@@ -12,6 +12,8 @@ export const Author = () => {
                   src="https://i.imgur.com/z4lCPJB.jpeg" 
                   alt="Suelen Costa" 
                   className="rounded-full w-full relative z-10 border-8 border-white shadow-xl hover:scale-105 transition-all duration-500 object-cover aspect-square"
+                  loading="lazy"
+                  decoding="async"
                 />
              </div>
           </div>

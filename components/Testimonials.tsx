@@ -80,6 +80,8 @@ export const Testimonials = () => {
                     src={item.image} 
                     alt={item.name} 
                     className="w-12 h-12 rounded-full object-cover border-2 border-brand-green flex-shrink-0"
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div>
                     <h4 className="font-bold text-slate-800 text-sm">{item.name}</h4>
