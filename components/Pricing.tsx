@@ -55,9 +55,7 @@ export const Pricing = () => {
                 className="max-w-md mx-auto py-6 text-xl animate-pulse" 
                 scrollToOffer={false}
                 onClick={() => {
-                   // Aqui você coloca o link do checkout
-                   // window.location.href = "SEU_LINK_AQUI";
-                   console.log("Aguardando link de checkout...");
+                   window.location.href = "https://pay.kirvano.com/b1cd85cf-c97a-4771-bb56-4fcb7e9db043";
                 }}
              >
                 COMPRAR AGORA
